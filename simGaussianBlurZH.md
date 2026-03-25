@@ -125,6 +125,6 @@ $$
 - 本方案有系统的余量回退机制来精确匹配目标 σ，Dual Kawase 没有对应设计。
 - Dual Kawase 的模糊程度由迭代次数和偏移量决定，难以直接对应特定的数学方差。本方案通过计算每层的方差贡献，可直接使用标准高斯模糊的 σ 值作为输入参数，在相同的 σ 下，两者的宏观模糊程度基本一致。
 
-<video width="100%" controls>
+<video width="50%" controls>
   <source src="demo.mp4" type="video/mp4">
 </video>
