@@ -125,6 +125,6 @@ Pyramid-downsampling for blur is not a new idea. The closest existing work is Du
 - This method has a systematic residual backtracking mechanism to precisely match the target σ. Dual Kawase has no corresponding design.
 - Dual Kawase controls blur intensity through iteration counts and offsets, making it difficult to map directly to a specific mathematical variance. By calculating the variance contribution of each level, this method can directly accept the standard Gaussian σ as an input parameter. Under the same σ, the macroscopic blur intensity of both methods is generally consistent.
 
-<video width="100%" controls>
+<video width="50%" controls>
   <source src="demo.mp4" type="video/mp4">
 </video>
