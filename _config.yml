@@ -1,0 +1,4 @@
+title: Real-Time Approximate Gaussian Blur
+markdown: kramdown
+kramdown:
+  math_engine: null
