@@ -1,3 +1,8 @@
+---
+layout: default
+title: Real-Time Approximate Gaussian Blur
+---
+
 # Real-Time Approximate Gaussian Blur
 
 For Gaussian blur on images, when the kernel is large (e.g. σ=150, sampling width ~450 pixels), even with horizontal-vertical separation, the computation is still substantial. On an iPhone 15 Pro, standard separable Gaussian blur on a 1920×1440 image can take hundreds of milliseconds.
