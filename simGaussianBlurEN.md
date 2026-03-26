@@ -85,7 +85,7 @@ Also, the higher the level, the smaller the performance cost.
 
 Of course, if $V_{remain}$ is very small, it might fall below level K's minimum blur threshold.
 
-Generalizing: adding one blur pass at level i yields a maximum of $V_{max_i}=V_{1.5}=2.25*4^i$. Level i+1's minimum is $V_{min_{i+1}}=V_{0.66}=4*0.66^2*4^i=1.7424*4^i$. Since the former exceeds the latter, the coverage across levels is seamless.
+Generalizing: adding one blur pass at level i yields a maximum of $V_{max_i}=V_{1.5}=2.25\*4^i$. Level i+1's minimum is $V_{min_{i+1}}=V_{0.66}=4\*0.66^2*4^i=1.7424\*4^i$. Since the former exceeds the latter, the coverage across levels is seamless.
 
 This completes the proof of Lemma 1.
 
